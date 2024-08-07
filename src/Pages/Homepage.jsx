@@ -9,7 +9,7 @@ function Homepage() {
     <div className="page-container">
       <Title/>
       <Selector/>
-      <Transition source="../public/flowers.jpg"/>
+      <Transition source="public\flowers.jpg"/>
 
       {/*Welcome message*/}
       <SeparaterLine/>
