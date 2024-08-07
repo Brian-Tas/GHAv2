@@ -10,8 +10,8 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path='/' element={<Homepage/>}/>
-          <Route path='/Thermometry' element={<Thermometry/>}/>
+          <Route path='/GHAv2/' element={<Homepage/>}/>
+          <Route path='/GHAv2/Thermometry' element={<Thermometry/>}/>
         </Routes>
       </Router>
     </div>
