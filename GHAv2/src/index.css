@@ -19,7 +19,7 @@ body {
   border-right: 2px solid;
   border-color: hsla(0, 0%, 75%, 0.200);
   max-width: 1500px;
-  height: 1000px;
+  height: 100%;
   margin: auto;
   padding: 50px 30px 50px 30px;
 }
@@ -41,4 +41,5 @@ body {
 .subheading {
   font-size: 1.5em;
   text-align: center;
+  color: var(--altC1);
 }
