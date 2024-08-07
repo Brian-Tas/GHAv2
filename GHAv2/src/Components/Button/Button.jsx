@@ -1,11 +1,12 @@
 import "./Button.css"
+import { Link } from 'react-router-dom';
 
 function Button(props) {
     return(
         <div className="button-container">
-            <a href={props.link || "#"}>
+            <Link to={`/${props.link}`}>
                 <button className={`button whitespace-nowrap ${props.otherClasses}`}>{props.label}</button>
-            </a>
+            </Link>
         </div>
     );
 }
